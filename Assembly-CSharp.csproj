@@ -45,13 +45,13 @@
      <Compile Include="Assets\scripts\Detector.cs" />
      <Compile Include="Assets\scripts\FreeFlyCamera.cs" />
      <Compile Include="Assets\scripts\Methods\GlobalMethods.cs" />
+     <Compile Include="Assets\scripts\DroneInfo__.cs" />
      <Compile Include="Assets\scripts\RandomMovement.cs" />
      <Compile Include="Assets\scripts\ServerInfo.cs" />
      <Compile Include="Assets\scripts\DroneInfo.cs" />
      <Compile Include="Assets\scripts\GameManager.cs" />
      <Compile Include="Assets\scripts\MlAgent.cs" />
      <Compile Include="Assets\scripts\DroneInfo_.cs" />
-     <Compile Include="Assets\scripts\DroneInfo__.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Drone\Supr camputer 3d models\Super camputer 3D Models" />
