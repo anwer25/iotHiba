@@ -1,0 +1,7 @@
+venv
+UserSettings
+obj
+Logs
+Library
+.vs
+.idea

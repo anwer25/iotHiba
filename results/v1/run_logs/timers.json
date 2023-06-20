@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1684932876",
+        "python_version": "3.9.9 (tags/v3.9.9:ccb0e6a, Nov 15 2021, 18:08:50) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\hibaProject\\iot2\\venv\\Scripts\\mlagents-learn --run-id=v1 --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1684932883"
+    },
+    "total": 7.4551924,
+    "count": 1,
+    "self": 0.005214500000000122,
+    "children": {
+        "run_training.setup": {
+            "total": 0.023815699999999995,
+            "count": 1,
+            "self": 0.023815699999999995
+        },
+        "TrainerController.start_learning": {
+            "total": 7.426162199999999,
+            "count": 1,
+            "self": 8.089999999949526e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 6.8090187,
+                    "count": 1,
+                    "self": 6.8090187
+                },
+                "trainer_threads": {
+                    "total": 5.999999999062311e-07,
+                    "count": 1,
+                    "self": 5.999999999062311e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.6170619999999998,
+                    "count": 1,
+                    "self": 0.007334199999999846,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.6097277999999999,
+                            "count": 1,
+                            "self": 0.6097277999999999
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

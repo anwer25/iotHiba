@@ -1,0 +1,56 @@
+{
+    "MlAgent": {
+        "checkpoints": [
+            {
+                "steps": 499948,
+                "file_path": "results\\v1\\MlAgent\\MlAgent-499948.onnx",
+                "reward": 1322.5,
+                "creation_time": 1684932400.7966375,
+                "auxillary_file_paths": [
+                    "results\\v1\\MlAgent\\MlAgent-499948.pt"
+                ]
+            },
+            {
+                "steps": 500140,
+                "file_path": "results\\v1\\MlAgent\\MlAgent-500140.onnx",
+                "reward": 1322.5,
+                "creation_time": 1684932400.8543613,
+                "auxillary_file_paths": [
+                    "results\\v1\\MlAgent\\MlAgent-500140.pt"
+                ]
+            },
+            {
+                "steps": 500140,
+                "file_path": "results\\v1\\MlAgent\\MlAgent-500140.onnx",
+                "reward": null,
+                "creation_time": 1684932856.4960575,
+                "auxillary_file_paths": [
+                    "results\\v1\\MlAgent\\MlAgent-500140.pt"
+                ]
+            },
+            {
+                "steps": 500140,
+                "file_path": "results\\v1\\MlAgent\\MlAgent-500140.onnx",
+                "reward": null,
+                "creation_time": 1684932883.961623,
+                "auxillary_file_paths": [
+                    "results\\v1\\MlAgent\\MlAgent-500140.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500140,
+            "file_path": "results\\v1\\MlAgent.onnx",
+            "reward": null,
+            "creation_time": 1684932883.961623,
+            "auxillary_file_paths": [
+                "results\\v1\\MlAgent\\MlAgent-500140.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
